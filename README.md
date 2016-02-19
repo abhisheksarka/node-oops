@@ -4,7 +4,7 @@ Object Oriented Patterns is a simple lightweight node module that eases JavaScri
 
 # Usage
 
-## Inheritance(static methods and instance methods)
+## Basic Inheritance (static methods and instance methods)
 
 ``` JavaScript
 var oo = require('oo-patterns');
@@ -28,4 +28,23 @@ oo.inherits(User, Base);
 var user = new User();
 user.update(); // Updating user...
 User.find(1); // Finding user...
+```
+
+## Module Based Inheritance, Mixins (instance methods)
+
+``` JavaScript
+// declare classes that are intended to behave as modules
+function Confirmable () { };
+Confirmable.prototype.confirm = function () {
+  console.log('Confirming...');
+}
+function Authenticatable () { };
+Authenticatable.prototype.authenticate = function () {
+  console.log('Authenticating...');
+}
+
+oo.includes(User, Authenticatable, Confirmable);
+
+user.confirm() // Confirming...
+user.authenticate() //Authenticating...
 ```
