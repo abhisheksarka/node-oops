@@ -1,0 +1,32 @@
+{
+  "name": "oops",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Abhishek Sarkar",
+    "email": "abhisheksarka@gmail.com",
+    "url": "http://abhisheksarka.github.io"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "extend": "^3.0.0"
+  },
+  "keywords": [
+    "extend",
+    "oop",
+    "inherit",
+    "include",
+    "module"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhisheksarka/node-oops.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abhisheksarka/node-oops/issues"
+  }
+}
