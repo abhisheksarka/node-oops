@@ -1,6 +1,6 @@
 {
   "name": "oo-patterns",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -24,9 +24,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abhisheksarka/oop-patterns.git"
+    "url": "git+https://github.com/abhisheksarka/oo-patterns.git"
   },
   "bugs": {
-    "url": "https://github.com/abhisheksarka/oop-patterns/issues"
+    "url": "https://github.com/abhisheksarka/oo-patterns/issues"
   }
 }
