@@ -28,6 +28,7 @@ Authenticatable.prototype.authenticate = function () {
 // This behaves as the child class
 function User () {
   this.name = 'foo';
+  private('foo', 'bar');
 };
 Oop.inherits(User, Base);
 Oop.includes(User, Authenticatable, Confirmable);
